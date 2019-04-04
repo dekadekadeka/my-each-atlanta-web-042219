@@ -4,9 +4,9 @@ def my_each(words) # put argument(s) here
   while i < words.length
     yield words[i]
     i = i + 1
-    puts words
+    words
   end
 end
 
-cobber = ["meow", "yay", "dick"]
-my_each(cobber){|i|}
+#cobber = ["meow", "yay", "dick"]
+#my_each(cobber){|i|}
