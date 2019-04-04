@@ -8,5 +8,5 @@ def my_each(words) # put argument(s) here
   end
 end
 
-cobber = ["meow", "yay", "dick"]
-my_each(cobber){|i|}
+#cobber = ["meow", "yay", "dick"]
+#my_each(cobber){|i|}
