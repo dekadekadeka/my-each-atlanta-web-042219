@@ -6,6 +6,7 @@ def my_each(words) # put argument(s) here
     words[i]
     i = i + 1
   end
+  return words
 end
 
 cobber = ["meow", "yay", "dick"]
