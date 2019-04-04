@@ -3,8 +3,8 @@ def my_each(words) # put argument(s) here
   i = 0
   while i < words.length
     yield words[i]
-    return words[i]
     i = i + 1
+    return words[i]
   end
 end
 
