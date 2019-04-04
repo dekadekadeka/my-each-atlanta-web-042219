@@ -4,8 +4,8 @@ def my_each(words) # put argument(s) here
   while i < words.length
     yield words[i]
     i = i + 1
-    return words[i]
   end
+  words[i]
 end
 
 #cobber = ["meow", "yay", "dick"]
