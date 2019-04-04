@@ -8,6 +8,3 @@ def my_each(words) # put argument(s) here
   end
   return words
 end
-
-#cobber = ["meow", "yay", "dick"]
-#my_each(cobber){|i|}
